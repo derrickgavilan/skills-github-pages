@@ -12,6 +12,16 @@ The goal is to identify and learn specific skills that make a good architect.
 # Coding Skills
 Code is king! All applications, big and small, are made up of them.
 
+## Solid Principles
+1. The Single Responsibility Principle
+2. The Open Closed Principle
+3. The Liskov Substitution Principle
+3. The Interface Segregation Principle
+4. The Dependency Inversion Principle
+
+### Resources
+[https://learn.microsoft.com/en-us/archive/msdn-magazine/2014/may/csharp-best-practices-dangers-of-violating-solid-principles-in-csharp](https://learn.microsoft.com/en-us/archive/msdn-magazine/2014/may/csharp-best-practices-dangers-of-violating-solid-principles-in-csharp)
+
 ## Design Patterns
 
 ### Creational
