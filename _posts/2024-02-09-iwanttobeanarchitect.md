@@ -1,11 +1,16 @@
 ---
-title: "Intro to 'I want to be an Architect'"
+title: "A Developer's Journey"
 date: 2024-02-09
 ---
 
+# Path
+Anyone can be a developer but not everyone chooses to be an architect. I truly believe that anyone can become an architect as long as there is a willingness to learn.
+
+# Goal
+The goal is to identify and learn specific skills that make a good architect.
+
 # Coding Skills
-Application design starts with the code. Coding best practices is the difference between a great app and an awesome
-application.
+Code is king! All applications, big and small, are made up of them.
 
 ## Design Patterns
 
