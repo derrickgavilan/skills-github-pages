@@ -1,5 +1,5 @@
 ---
-title: "A Developer's Journey"
+title: "The Master Plan"
 date: 2024-02-09
 ---
 
