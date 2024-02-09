@@ -1,4 +1,4 @@
 ---
-title: Dev to Architect
+title: Apprentice to Architect
 ---
 
