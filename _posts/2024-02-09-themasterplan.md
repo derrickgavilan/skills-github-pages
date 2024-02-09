@@ -3,16 +3,10 @@ title: "The Master Plan"
 date: 2024-02-09
 ---
 
-# Path
-Anyone can be a developer but not everyone chooses to be an architect. I truly believe that anyone can become an architect as long as there is a willingness to learn.
+# Master your Code
+The plan is simple: master the SOLID principles, Design, and Logic patterns. Then, master system designs. Simple but not easy!
 
-# Goal
-The goal is to identify and learn specific skills that make a good architect.
-
-# Coding Skills
-Code is king! All applications, big and small, are made up of them.
-
-## Solid Principles
+## SOLID Principles
 1. The Single Responsibility Principle
 2. The Open Closed Principle
 3. The Liskov Substitution Principle
