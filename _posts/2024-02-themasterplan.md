@@ -1,5 +1,5 @@
 ---
-title: "The Master Plan"
+title: "The Master's Plan"
 date: 2024-02-09
 ---
 
