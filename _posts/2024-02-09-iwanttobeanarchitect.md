@@ -69,4 +69,4 @@ Code is king! All applications, big and small, are made up of them.
 Systems design is a key skill. Different applications require different system designs and knowing them makes or breaks an architect.
 
 ### Resource:
-[link](https://bytebytego.com)
+[https://bytebytego.com](https://bytebytego.com)
