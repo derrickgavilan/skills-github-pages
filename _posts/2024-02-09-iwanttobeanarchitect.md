@@ -43,7 +43,7 @@ Code is king! All applications, big and small, are made up of them.
 10. Visitor 
 
 ### Resources:
-https://refactoring.guru/design-patterns/csharp
+[link](https://refactoring.guru/design-patterns/csharp)
 
 ## Logic Coding Patterns
 
@@ -63,8 +63,10 @@ https://refactoring.guru/design-patterns/csharp
 14. Topological sort
 
 ### Resources:
-https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed
+[link](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
 
 # Systems Design
 Systems design is a key skill. Different applications require different system designs and knowing them makes or breaks an architect.
 
+### Resource:
+[link](https://bytebytego.com)
