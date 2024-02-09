@@ -49,6 +49,8 @@ The plan is simple: master the SOLID principles, Design, and Logic patterns. The
 ### Resources:
 [https://refactoring.guru/design-patterns/csharp](https://refactoring.guru/design-patterns/csharp)
 
+[https://www.dofactory.com/net/design-patterns](https://www.dofactory.com/net/design-patterns)
+
 ## Logic Coding Patterns
 
 1. Sliding Window
