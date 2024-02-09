@@ -1,4 +1,4 @@
 ---
-title: I want to be an Architect
+title: Dev to Architect
 ---
 
