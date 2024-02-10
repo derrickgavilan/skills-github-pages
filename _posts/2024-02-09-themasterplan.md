@@ -51,6 +51,8 @@ The plan is simple: master the SOLID principles, Design, and Logic patterns. The
 
 [https://www.dofactory.com/net/design-patterns](https://www.dofactory.com/net/design-patterns)
 
+[https://www.linkedin.com/pulse/factory-method-pattern-c-konstantinos-kalafatis/](https://www.linkedin.com/pulse/factory-method-pattern-c-konstantinos-kalafatis/)
+
 ## Logic Coding Patterns
 
 1. Sliding Window
