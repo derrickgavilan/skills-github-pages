@@ -1,26 +1,31 @@
 ---
-title: "Cyclical Sort"
+title: "Pattern: Cyclical Sort"
 date: 2024-02-14
 ---
 
 
-# Pattern: Cyclical Sort
+# Cyclical Sort
 
 ```
 static void CyclicSort()
 {
+    // Set up the data
     int[] data = { 5, 4, 1, 2, 3 };
+
     int i = 0;
     while (i <= data.Length - 1)
     {
-        // target index to compare
+        // get the index of the element we are swapping
         int correctIndex = data[i] - 1;
 
         Console.WriteLine($"{data[correctIndex]} == {data[i]}?");
 
+        // compare element values
         if (data[i] != data[correctIndex])
         {
-            // swap
+            // swap element values
+            // do not increment i
+
             int temp = data[i];
             data[i] = data[correctIndex];
             data[correctIndex] = temp;
