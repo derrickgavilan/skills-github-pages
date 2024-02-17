@@ -1,9 +1,9 @@
 ---
-title: "In-Place Reversal Linked List"
+title: "Pattern: In-Place Reversal Linked List"
 date: 2024-02-14
 ---
 
-# Pattern: In-Place Reversal Linked List
+# In-Place Reversal Linked List
 
 ```
 public class ListNode
@@ -48,31 +48,31 @@ static ListNode ReverseList(ListNode head)
     }
 
     ListNode prev = null;
-    ListNode cur = head;
+    ListNode curr = head;
 
-    while (cur != null)
+    while (curr != null)
     {
-        ListNode post = cur.next;
-        cur.next = prev;
-        prev = cur;
-        cur = post;
+        ListNode next = curr.next;
+        
+        curr.next = prev;
+        prev = curr;
+
+        // Move to the next node
+        curr = next;
     }
 
     /*
-    
-    prev    cur     next
-    ----    ----    ----
-    null    0       1
-    0       1       2
-    1       2       null
-    null    null    null
 
-    prev    cur     next
-    ----    ----    ----
-    null    0       1
-    0       1       2
-    1       2       null
-    2       null    null
+    ORIG:
+    0 -> 1 
+    1 -> 2 
+    2 -> null
+
+    REVERSE:
+    0 -> null
+    1 -> 0
+    2 -> 1
+
     */
 
     return prev;
