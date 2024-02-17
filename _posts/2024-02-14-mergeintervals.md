@@ -1,3 +1,8 @@
+---
+title: "Merge Intervals"
+date: 2024-02-14
+---
+
 # Pattern: Merge Intervals
 
 ```
