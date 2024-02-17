@@ -1,3 +1,8 @@
+---
+title: "Two Pointer"
+date: 2024-02-14
+---
+
 # Coding Pattern: Two Pointer
 
 ```
