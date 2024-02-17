@@ -78,3 +78,6 @@ static ListNode ReverseList(ListNode head)
     return prev;
 }
 ```
+
+### References:
+[https://www.youtube.com/watch?v=XM0b_MhW7NA](https://www.youtube.com/watch?v=XM0b_MhW7NA)
