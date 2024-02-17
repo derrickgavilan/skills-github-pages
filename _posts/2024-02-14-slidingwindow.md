@@ -1,3 +1,9 @@
+---
+title: "Sliding Window"
+date: 2024-02-14
+---
+
+
 # Pattern: Sliding Window
 
 ```
