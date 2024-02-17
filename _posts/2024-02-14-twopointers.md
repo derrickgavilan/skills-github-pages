@@ -1,40 +1,54 @@
 ---
-title: "Two Pointer"
+title: "Pattern: Two Pointer"
 date: 2024-02-14
 ---
 
-# Coding Pattern: Two Pointer
+# Two Pointer
 
 ```
-static void TwoPointer_v2(int targetSum)
-{
-    int[] data = { 1, 2, 3, 7, 8, 9, 11, 22, 33 };
-
-    // loop through array
-    int i = 0;
-    int leftIndex = 0;
-    int rightIndex = data.Length - 1;
-
-    while (i <= data.Length)
+static void TwoPointer()
     {
-        int sumElements = data[leftIndex] + data[rightIndex];
-        if (sumElements == targetSum)
+    	// set up the data
+        int[] data = { 1, 2, 3, 7, 8, 9, 11, 22, 33 };
+        
+        // set up target value to compare left and right sums
+        int target = 15;
+        
+        // set indexes
+        int leftIndex = 0;
+        int rightIndex = data.Length - 1;
+        
+        int leftRightSum = 0;
+        
+        // loop through array
+        for(int i = 0; i <= data.Length - 1; i++)
         {
-            Console.WriteLine($"targetSum '{targetSum}' found in data[{leftIndex}]:{data[leftIndex]}, data[{rightIndex}]:{data[rightIndex]}");
-            break;
-        }
-        else
-        {
-            // Move left or right index
-            if (sumElements < targetSum)
+        	// get left and right values
+            leftRightSum = data[leftIndex] + data[rightIndex];
+            
+            Console.WriteLine($"{data[leftIndex]} + {data[rightIndex]}");
+            Console.WriteLine($"{target} == {leftRightSum}\n");
+            
+            // compare with target
+            if(target == leftRightSum)
             {
-                leftIndex += 1;
+            	// done!
+                Console.WriteLine($"target '{target}' found in index {leftIndex} and {rightIndex}");
+                return;
             }
             else
             {
-                rightIndex -= 1;
+            	// move indexes
+            	if(leftRightSum < target)
+                {
+                	leftIndex += 1;
+                }
+                else
+                {
+                	rightIndex -= 1;
+                }
             }
-        }
-    }// while
-}
+            
+        } // for
+    }
 ```
