@@ -1,3 +1,8 @@
+---
+title: "In-Place Reversal Linked List"
+date: 2024-02-14
+---
+
 # Pattern: In-Place Reversal Linked List
 
 ```
