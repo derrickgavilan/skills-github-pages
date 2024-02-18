@@ -25,16 +25,17 @@ static void MergeIntervals()
         // start at next element
         for(int i = 1; i <= intervals.Length - 1; i++)
         {
-        	int[] interval = intervals[i];
+            int[] interval = intervals[i];
             
-        	if(right >= interval[0])
+            if(right >= interval[0])
             {
+		// overlap
             	// adjust right value
             	right = Math.Max(right, interval[1]);
             }
             else
             {
-            	Console.WriteLine($"{left},{right}");
+            	Console.WriteLine($"{left} - {right}");
             
             	// no overlap
             	// reset values
@@ -43,7 +44,7 @@ static void MergeIntervals()
             }
         } // for
 
-	// Add last interval
-        Console.WriteLine($"{left},{right}");
-	}
+		// Add last interval
+        Console.WriteLine($"{left} - {right}");
+}
 ```
