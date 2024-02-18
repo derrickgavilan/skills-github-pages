@@ -14,11 +14,7 @@ static void MergeIntervals()
     3. Merge intervals
     */
 
-    // intervals. 
-    // interval #1 {1,3}
-    // interval #2 {5,10}
-    // interval #3 {7,15}
-    // ...
+    // Set up the data
     int[][] intervals = new int[][]
     {
     new int[] {1,3},
@@ -73,6 +69,7 @@ static void MergeIntervals()
                 // record interval
                 newIntervals[newIntervalIndex] = $"{newIntervalLeft}, {newIntervalRight}";
                 newIntervalIndex += 1;
+
                 // move to next interval
                 Console.WriteLine($"No Overlap. Start new interval.");
                 break;
