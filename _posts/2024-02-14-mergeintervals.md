@@ -44,7 +44,7 @@ static void MergeIntervals()
             }
         } // for
 
-		// Add last interval
+	// Add last interval
         Console.WriteLine($"{left} - {right}");
 }
 ```
