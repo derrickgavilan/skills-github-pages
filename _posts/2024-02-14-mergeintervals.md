@@ -7,8 +7,8 @@ date: 2024-02-14
 
 ```
 static void MergeIntervals()
-	{
-		// Set up the data
+{
+	// Set up the data
         int[][] intervals = new int[][]
         {
             new int[] {1,3},
@@ -43,7 +43,7 @@ static void MergeIntervals()
             }
         } // for
 
-		// Add last interval
+	// Add last interval
         Console.WriteLine($"{left},{right}");
 	}
 ```
