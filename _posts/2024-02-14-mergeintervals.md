@@ -23,7 +23,7 @@ static void MergeIntervals()
 	int right = intervals[0][1];
 	
 	// loop
-	// start at next interval
+	// start at next interval (i.e. i=1)
 	for(int i=1; i<=intervals.Length-1; i++)
 	{
 		// next interval
@@ -43,7 +43,7 @@ static void MergeIntervals()
 		// record left and right values
 		Console.WriteLine($"{left},{right}");
 		
-				// this is a new interval
+		// this is a new interval
 		// set left and right values
 		left = interval[0];
 		right = interval[1];
