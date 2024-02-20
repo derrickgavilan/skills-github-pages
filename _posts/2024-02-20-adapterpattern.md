@@ -1,4 +1,9 @@
+---
+title: "Adapter Pattern"
+date: 2024-02-20
+---
 
+# Adapter Pattern
 
 
 ```
@@ -49,3 +54,7 @@ public class Adaptee
 }
 
 ```
+
+### References:
+
+[https://www.youtube.com/watch?v=2PKQtcJjYvc](https://www.youtube.com/watch?v=2PKQtcJjYvc)
