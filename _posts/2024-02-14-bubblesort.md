@@ -1,5 +1,9 @@
+---
+title: "Pattern: Bubble Sort"
+date: 2024-02-14
+---
 
-
+# Bubble Sort
 
 ```
 
