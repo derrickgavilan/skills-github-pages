@@ -6,6 +6,45 @@ date: 2024-02-14
 # In-Place Reversal Linked List
 
 ```
+/*
+    ORIG:
+    0 -> 1 
+    1 -> 2 
+    2 -> null
+
+    REVERSE:
+    0 -> null
+    1 -> 0
+    2 -> 1
+*/
+```
+
+```
+
+static void Main(string[] args)
+{
+    // data
+    ListNode node2 = new ListNode(val: 2, next: null);
+    ListNode node1 = new ListNode(val: 1, next: node2);
+    ListNode node0 = new ListNode(val: 0, next: node1);
+    
+    // display original order
+    ListNode a = node0;
+    while(a != null)
+    {
+        Console.WriteLine($"{a.val}");
+        a = a.next;
+    }
+    
+    // display reverse order
+    ListNode b = InPlaceReverseList(node0);
+    while(b != null)
+    {
+        Console.WriteLine($"{b.val}");
+        b = b.next;
+    }
+}
+
 public class ListNode
 {
     public int val;
@@ -17,66 +56,24 @@ public class ListNode
     }
 }
 
-static void InPlaceReverseList()
+static ListNode InPlaceReverseList(ListNode head)
 {
-    // Set up the data
-    ListNode node2 = new ListNode(val: 2, next: null);
-    ListNode node1 = new ListNode(val: 1, next: node2);
-    ListNode node0 = new ListNode(val: 0, next: node1);
-
-    ListNode cur = node0;
-    while (cur != null)
-    {
-        Console.WriteLine(cur.val);
-        cur = cur.next;
-    }
-
-    // Reverse the linked list
-    ListNode cur2 = ReverseList(node0);
-    while (cur2 != null)
-    {
-        Console.WriteLine(cur2.val);
-        cur2 = cur2.next;
-    }
-}
-
-static ListNode ReverseList(ListNode head)
-{
-    if (head == null || head.next == null)
-    {
-        return head;
-    }
-
-    ListNode prev = null;
     ListNode curr = head;
-
-    while (curr != null)
+    ListNode prev = null;
+    
+    // loop
+    while(curr != null)
     {
         ListNode next = curr.next;
-        
         curr.next = prev;
         prev = curr;
-
-        // Move to the next node
         curr = next;
-    }
-
-    /*
-
-    ORIG:
-    0 -> 1 
-    1 -> 2 
-    2 -> null
-
-    REVERSE:
-    0 -> null
-    1 -> 0
-    2 -> 1
-
-    */
-
+    } // while
+    
     return prev;
 }
+
+
 ```
 
 ### References:
