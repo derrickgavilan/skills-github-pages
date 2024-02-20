@@ -1,5 +1,9 @@
+---
+title: "Singleton Pattern"
+date: 2024-02-20
+---
 
-
+# Singleton Pattern
 
 ```
 
@@ -44,3 +48,7 @@ sealed class MySingleton
 }
 
 ```
+
+### Resources:
+
+[https://www.youtube.com/watch?v=r6Y0SmbufmU](https://www.youtube.com/watch?v=r6Y0SmbufmU)
