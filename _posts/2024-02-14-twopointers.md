@@ -5,50 +5,52 @@ date: 2024-02-14
 
 # Two Pointer
 
+Notes:
+
+- 1 loop
+- traverse left and right side of array at the same time
+- left and right index are manipulated separately
+
 ```
+
 static void TwoPointer()
+{
+    // data
+    int[] data = { 1, 2, 3, 7, 8, 9, 11, 22, 33 };
+    
+    // target
+    int target = 17;
+    
+    // left and right index
+    int left = 0;
+    int right = data.Length - 1;
+    
+    // loop
+    for(int i=0; i <= data.Length-1; i++)
     {
-    	// set up the data
-        int[] data = { 1, 2, 3, 7, 8, 9, 11, 22, 33 };
-        
-        // set up target value to compare left and right sums
-        int target = 15;
-        
-        // set indexes
-        int leftIndex = 0;
-        int rightIndex = data.Length - 1;
-        
-        int leftRightSum = 0;
-        
-        // loop through array
-        for(int i = 0; i <= data.Length - 1; i++)
+        // sum of left and right
+        int leftRightSum = data[left] + data[right];
+
+        // compare target
+        if(target == leftRightSum)
         {
-        	// get left and right values
-            leftRightSum = data[leftIndex] + data[rightIndex];
-            
-            Console.WriteLine($"{data[leftIndex]} + {data[rightIndex]}");
-            Console.WriteLine($"{target} == {leftRightSum}\n");
-            
-            // compare with target
-            if(target == leftRightSum)
+            // done
+            Console.WriteLine($"target {target} found in {left},{right}");
+            break;
+        }
+        else
+        {
+            // move left or right index
+            if(leftRightSum < target)
             {
-            	// done!
-                Console.WriteLine($"target '{target}' found in index {leftIndex} and {rightIndex}");
-                return;
+                left += 1;
             }
             else
             {
-            	// move indexes
-            	if(leftRightSum < target)
-                {
-                	leftIndex += 1;
-                }
-                else
-                {
-                	rightIndex -= 1;
-                }
+                right -= 1;
             }
-            
-        } // for
-    }
+        }
+    } // loop
+}
+
 ```
