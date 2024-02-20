@@ -1,4 +1,9 @@
+---
+title: "Factory Pattern"
+date: 2024-02-20
+---
 
+# Factory Pattern
 
 
 ```
