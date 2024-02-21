@@ -21,12 +21,12 @@ The plan is simple: master the SOLID principles, Design, and Logic patterns. The
 ### Creational
 1. Abstract Factory
 2. Builder 
-3. Factory Method 
+3. [https://derrickgavilan.github.io/skills-github-pages/2024/02/20/factorypattern.html](Factory Method)
 4. Prototype 
-5. Singleton 
+5. [https://derrickgavilan.github.io/skills-github-pages/2024/02/20/singletonpattern.html](Singleton)
 
 ### Structural
-1. Adapter 
+1. (https://derrickgavilan.github.io/skills-github-pages/2024/02/20/adapterpattern.html)[Adapter]
 2. Bridge 
 3. Composite 
 4. Decorator 
@@ -43,7 +43,7 @@ The plan is simple: master the SOLID principles, Design, and Logic patterns. The
 6. Command 
 7. Mediator 
 8. Observer 
-9. Strategy 
+9. [Strategy](https://derrickgavilan.github.io/skills-github-pages/2024/02/20/strategypattern.html)
 10. Visitor 
 
 ### Resources:
@@ -55,20 +55,22 @@ The plan is simple: master the SOLID principles, Design, and Logic patterns. The
 
 ## Logic Coding Patterns
 
-1. Sliding Window
-2. Two Pointers or Iterators
+1. [https://derrickgavilan.github.io/skills-github-pages/2024/02/14/slidingwindow.html](Sliding Window)
+2. [https://derrickgavilan.github.io/skills-github-pages/2024/02/14/twopointers.html](Two Pointers or Iterators)
 3. Fast and Slow pointers
-4. Merge Intervals
-5. Cyclic sort
-6. In-place reversal of linked list
-7. Tree BFS
-8. Tree DFS
+4. [https://derrickgavilan.github.io/skills-github-pages/2024/02/14/mergeintervals.html](Merge Intervals)
+5. [https://derrickgavilan.github.io/skills-github-pages/2024/02/14/cyclicalsort.html](Cyclic sort)
+6. [https://derrickgavilan.github.io/skills-github-pages/2024/02/14/inplacereversallinkedlist.html](In-place reversal of linked list)
+7. [https://derrickgavilan.github.io/skills-github-pages/2024/02/14/bfs.html](Tree BFS)
+8. [https://derrickgavilan.github.io/skills-github-pages/2024/02/14/dfs.html](Tree DFS)
 9. Two heaps
 10. Subsets
 11. Modified binary search
 12. Top K elements
 13. K-way Merge
 14. Topological sort
+
+15. [https://derrickgavilan.github.io/skills-github-pages/2024/02/14/bubblesort.html](Bubble Sort)
 
 ### Resources:
 [https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
