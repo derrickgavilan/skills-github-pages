@@ -21,12 +21,12 @@ The plan is simple: master the SOLID principles, Design, and Logic patterns. The
 ### Creational
 1. Abstract Factory
 2. Builder 
-3. [https://derrickgavilan.github.io/skills-github-pages/2024/02/20/factorypattern.html](Factory Method)
+3. [Factory Method](https://derrickgavilan.github.io/skills-github-pages/2024/02/20/factorypattern.html)
 4. Prototype 
-5. [https://derrickgavilan.github.io/skills-github-pages/2024/02/20/singletonpattern.html](Singleton)
+5. [Singleton](https://derrickgavilan.github.io/skills-github-pages/2024/02/20/singletonpattern.html)
 
 ### Structural
-1. (https://derrickgavilan.github.io/skills-github-pages/2024/02/20/adapterpattern.html)[Adapter]
+1. [Adapter](https://derrickgavilan.github.io/skills-github-pages/2024/02/20/adapterpattern.html)
 2. Bridge 
 3. Composite 
 4. Decorator 
@@ -55,14 +55,14 @@ The plan is simple: master the SOLID principles, Design, and Logic patterns. The
 
 ## Logic Coding Patterns
 
-1. [https://derrickgavilan.github.io/skills-github-pages/2024/02/14/slidingwindow.html](Sliding Window)
-2. [https://derrickgavilan.github.io/skills-github-pages/2024/02/14/twopointers.html](Two Pointers or Iterators)
+1. [Sliding Window](https://derrickgavilan.github.io/skills-github-pages/2024/02/14/slidingwindow.html)
+2. [Two Pointers or Iterators](https://derrickgavilan.github.io/skills-github-pages/2024/02/14/twopointers.html)
 3. Fast and Slow pointers
-4. [https://derrickgavilan.github.io/skills-github-pages/2024/02/14/mergeintervals.html](Merge Intervals)
-5. [https://derrickgavilan.github.io/skills-github-pages/2024/02/14/cyclicalsort.html](Cyclic sort)
-6. [https://derrickgavilan.github.io/skills-github-pages/2024/02/14/inplacereversallinkedlist.html](In-place reversal of linked list)
-7. [https://derrickgavilan.github.io/skills-github-pages/2024/02/14/bfs.html](Tree BFS)
-8. [https://derrickgavilan.github.io/skills-github-pages/2024/02/14/dfs.html](Tree DFS)
+4. [Merge Intervals](https://derrickgavilan.github.io/skills-github-pages/2024/02/14/mergeintervals.html)
+5. [Cyclic sort](https://derrickgavilan.github.io/skills-github-pages/2024/02/14/cyclicalsort.html)
+6. [In-place reversal of linked list](https://derrickgavilan.github.io/skills-github-pages/2024/02/14/inplacereversallinkedlist.html)
+7. [Tree BFS](https://derrickgavilan.github.io/skills-github-pages/2024/02/14/bfs.html)
+8. [Tree DFS](https://derrickgavilan.github.io/skills-github-pages/2024/02/14/dfs.html)
 9. Two heaps
 10. Subsets
 11. Modified binary search
@@ -70,7 +70,7 @@ The plan is simple: master the SOLID principles, Design, and Logic patterns. The
 13. K-way Merge
 14. Topological sort
 
-15. [https://derrickgavilan.github.io/skills-github-pages/2024/02/14/bubblesort.html](Bubble Sort)
+15. [Bubble Sort](https://derrickgavilan.github.io/skills-github-pages/2024/02/14/bubblesort.html)
 
 ### Resources:
 [https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
