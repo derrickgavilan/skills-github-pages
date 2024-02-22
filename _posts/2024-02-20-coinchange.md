@@ -1,6 +1,9 @@
+---
+title: "Challenge: Coin Change"
+date: 2024-02-20
+---
 
-
-
+# Coin Change
 
 ```
 
